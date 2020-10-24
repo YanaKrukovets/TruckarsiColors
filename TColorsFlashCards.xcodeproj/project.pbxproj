@@ -8,14 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2CCA955725430DE200B4CF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA955625430DE200B4CF90 /* AppDelegate.swift */; };
-		2CCA955925430DE200B4CF90 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA955825430DE200B4CF90 /* GameScene.sks */; };
 		2CCA955B25430DE200B4CF90 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA955A25430DE200B4CF90 /* Actions.sks */; };
 		2CCA955D25430DE200B4CF90 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA955C25430DE200B4CF90 /* GameScene.swift */; };
 		2CCA955F25430DE200B4CF90 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA955E25430DE200B4CF90 /* GameViewController.swift */; };
 		2CCA956225430DE200B4CF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA956025430DE200B4CF90 /* Main.storyboard */; };
-		2CCA956425430DE400B4CF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA956325430DE400B4CF90 /* Assets.xcassets */; };
 		2CCA956725430DE400B4CF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA956525430DE400B4CF90 /* LaunchScreen.storyboard */; };
 		2CCA957225430DE500B4CF90 /* TColorsFlashCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA957125430DE500B4CF90 /* TColorsFlashCardsTests.swift */; };
+		2CCA957E25430EDB00B4CF90 /* winner.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA957C25430EDA00B4CF90 /* winner.sks */; };
+		2CCA957F25430EDB00B4CF90 /* success.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA957D25430EDB00B4CF90 /* success.sks */; };
+		2CCA958125430EE500B4CF90 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA958025430EE400B4CF90 /* Sound */; };
+		2CCA958325430F2700B4CF90 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA958225430F2700B4CF90 /* AudioPlayer.swift */; };
+		2CCA958525430F3D00B4CF90 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA958425430F3D00B4CF90 /* Cards.swift */; };
+		2CCA958825430F6300B4CF90 /* FlashCards.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA958625430F6200B4CF90 /* FlashCards.sks */; };
+		2CCA958925430F6300B4CF90 /* FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA958725430F6300B4CF90 /* FlashCards.swift */; };
+		2CCA958E25430F7C00B4CF90 /* PreviewScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA958A25430F7B00B4CF90 /* PreviewScene.sks */; };
+		2CCA958F25430F7C00B4CF90 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA958B25430F7B00B4CF90 /* Puzzle.swift */; };
+		2CCA959025430F7C00B4CF90 /* Puzzle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA958C25430F7B00B4CF90 /* Puzzle.sks */; };
+		2CCA959125430F7C00B4CF90 /* PreviewScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA958D25430F7B00B4CF90 /* PreviewScene.swift */; };
+		2CCA9593254316A800B4CF90 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA9592254316A800B4CF90 /* GameScene.sks */; };
+		2CCA9595254381FE00B4CF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA9594254381FD00B4CF90 /* Assets.xcassets */; };
+		2CCA95C92544D0FF00B4CF90 /* PuzzleSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA95C82544D0FF00B4CF90 /* PuzzleSelect.swift */; };
+		2CCA95CB2544D12B00B4CF90 /* PuzzleSelect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA95CA2544D12B00B4CF90 /* PuzzleSelect.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +44,30 @@
 /* Begin PBXFileReference section */
 		2CCA955325430DE200B4CF90 /* TColorsFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TColorsFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCA955625430DE200B4CF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CCA955825430DE200B4CF90 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2CCA955A25430DE200B4CF90 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2CCA955C25430DE200B4CF90 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2CCA955E25430DE200B4CF90 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2CCA956125430DE200B4CF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2CCA956325430DE400B4CF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CCA956625430DE400B4CF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CCA956825430DE400B4CF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CCA956D25430DE500B4CF90 /* TColorsFlashCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TColorsFlashCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCA957125430DE500B4CF90 /* TColorsFlashCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TColorsFlashCardsTests.swift; sourceTree = "<group>"; };
 		2CCA957325430DE500B4CF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCA957C25430EDA00B4CF90 /* winner.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = winner.sks; sourceTree = "<group>"; };
+		2CCA957D25430EDB00B4CF90 /* success.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = success.sks; sourceTree = "<group>"; };
+		2CCA958025430EE400B4CF90 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
+		2CCA958225430F2700B4CF90 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		2CCA958425430F3D00B4CF90 /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		2CCA958625430F6200B4CF90 /* FlashCards.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FlashCards.sks; sourceTree = "<group>"; };
+		2CCA958725430F6300B4CF90 /* FlashCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCards.swift; sourceTree = "<group>"; };
+		2CCA958A25430F7B00B4CF90 /* PreviewScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PreviewScene.sks; sourceTree = "<group>"; };
+		2CCA958B25430F7B00B4CF90 /* Puzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		2CCA958C25430F7B00B4CF90 /* Puzzle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Puzzle.sks; sourceTree = "<group>"; };
+		2CCA958D25430F7B00B4CF90 /* PreviewScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewScene.swift; sourceTree = "<group>"; };
+		2CCA9592254316A800B4CF90 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2CCA9594254381FD00B4CF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CCA95C82544D0FF00B4CF90 /* PuzzleSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSelect.swift; sourceTree = "<group>"; };
+		2CCA95CA2544D12B00B4CF90 /* PuzzleSelect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PuzzleSelect.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +91,9 @@
 		2CCA954A25430DE200B4CF90 = {
 			isa = PBXGroup;
 			children = (
+				2CCA957D25430EDB00B4CF90 /* success.sks */,
+				2CCA957C25430EDA00B4CF90 /* winner.sks */,
+				2CCA958025430EE400B4CF90 /* Sound */,
 				2CCA955525430DE200B4CF90 /* TColorsFlashCards */,
 				2CCA957025430DE500B4CF90 /* TColorsFlashCardsTests */,
 				2CCA955425430DE200B4CF90 /* Products */,
@@ -83,13 +112,23 @@
 		2CCA955525430DE200B4CF90 /* TColorsFlashCards */ = {
 			isa = PBXGroup;
 			children = (
+				2CCA958225430F2700B4CF90 /* AudioPlayer.swift */,
 				2CCA955625430DE200B4CF90 /* AppDelegate.swift */,
-				2CCA955825430DE200B4CF90 /* GameScene.sks */,
+				2CCA958A25430F7B00B4CF90 /* PreviewScene.sks */,
+				2CCA958D25430F7B00B4CF90 /* PreviewScene.swift */,
+				2CCA958C25430F7B00B4CF90 /* Puzzle.sks */,
+				2CCA95CA2544D12B00B4CF90 /* PuzzleSelect.sks */,
+				2CCA95C82544D0FF00B4CF90 /* PuzzleSelect.swift */,
+				2CCA958B25430F7B00B4CF90 /* Puzzle.swift */,
+				2CCA958625430F6200B4CF90 /* FlashCards.sks */,
+				2CCA9594254381FD00B4CF90 /* Assets.xcassets */,
+				2CCA958725430F6300B4CF90 /* FlashCards.swift */,
+				2CCA958425430F3D00B4CF90 /* Cards.swift */,
 				2CCA955A25430DE200B4CF90 /* Actions.sks */,
+				2CCA9592254316A800B4CF90 /* GameScene.sks */,
 				2CCA955C25430DE200B4CF90 /* GameScene.swift */,
 				2CCA955E25430DE200B4CF90 /* GameViewController.swift */,
 				2CCA956025430DE200B4CF90 /* Main.storyboard */,
-				2CCA956325430DE400B4CF90 /* Assets.xcassets */,
 				2CCA956525430DE400B4CF90 /* LaunchScreen.storyboard */,
 				2CCA956825430DE400B4CF90 /* Info.plist */,
 			);
@@ -187,9 +226,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CCA956225430DE200B4CF90 /* Main.storyboard in Resources */,
-				2CCA955925430DE200B4CF90 /* GameScene.sks in Resources */,
-				2CCA956425430DE400B4CF90 /* Assets.xcassets in Resources */,
+				2CCA959025430F7C00B4CF90 /* Puzzle.sks in Resources */,
+				2CCA9595254381FE00B4CF90 /* Assets.xcassets in Resources */,
+				2CCA9593254316A800B4CF90 /* GameScene.sks in Resources */,
+				2CCA958E25430F7C00B4CF90 /* PreviewScene.sks in Resources */,
 				2CCA956725430DE400B4CF90 /* LaunchScreen.storyboard in Resources */,
+				2CCA957F25430EDB00B4CF90 /* success.sks in Resources */,
+				2CCA958825430F6300B4CF90 /* FlashCards.sks in Resources */,
+				2CCA957E25430EDB00B4CF90 /* winner.sks in Resources */,
+				2CCA95CB2544D12B00B4CF90 /* PuzzleSelect.sks in Resources */,
+				2CCA958125430EE500B4CF90 /* Sound in Resources */,
 				2CCA955B25430DE200B4CF90 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,9 +254,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCA958925430F6300B4CF90 /* FlashCards.swift in Sources */,
+				2CCA958F25430F7C00B4CF90 /* Puzzle.swift in Sources */,
+				2CCA958525430F3D00B4CF90 /* Cards.swift in Sources */,
 				2CCA955D25430DE200B4CF90 /* GameScene.swift in Sources */,
 				2CCA955F25430DE200B4CF90 /* GameViewController.swift in Sources */,
+				2CCA959125430F7C00B4CF90 /* PreviewScene.swift in Sources */,
+				2CCA95C92544D0FF00B4CF90 /* PuzzleSelect.swift in Sources */,
 				2CCA955725430DE200B4CF90 /* AppDelegate.swift in Sources */,
+				2CCA958325430F2700B4CF90 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

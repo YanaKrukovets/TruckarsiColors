@@ -10,6 +10,8 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
+let audio = AudioPlayer.sharedInstance()
+
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {
