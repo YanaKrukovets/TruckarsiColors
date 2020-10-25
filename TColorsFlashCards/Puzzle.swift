@@ -14,9 +14,6 @@ protocol TransitionDelegate: SKSceneDelegate {
 
  class Puzzle: SKScene {
     
-    private var label : SKLabelNode?
-    private var spinnyNode : SKShapeNode?
-    
     private var activeShape: SKSpriteNode!
     private var shadeNode: SKSpriteNode!
     private var shapeNumber: Int = 0

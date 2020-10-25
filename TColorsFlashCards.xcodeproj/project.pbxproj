@@ -29,6 +29,12 @@
 		2CCA9595254381FE00B4CF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA9594254381FD00B4CF90 /* Assets.xcassets */; };
 		2CCA95C92544D0FF00B4CF90 /* PuzzleSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA95C82544D0FF00B4CF90 /* PuzzleSelect.swift */; };
 		2CCA95CB2544D12B00B4CF90 /* PuzzleSelect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA95CA2544D12B00B4CF90 /* PuzzleSelect.sks */; };
+		2CCA95CD2544D9BB00B4CF90 /* House.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA95CC2544D9BB00B4CF90 /* House.sks */; };
+		2CE962442544DE13005EBAD1 /* HalfBird.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CE962432544DE13005EBAD1 /* HalfBird.sks */; };
+		2CE962462544DF88005EBAD1 /* Car.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CE962452544DF88005EBAD1 /* Car.sks */; };
+		2CE962482544E254005EBAD1 /* Remember.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CE962472544E254005EBAD1 /* Remember.sks */; };
+		2CE9624A2544E409005EBAD1 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE962492544E409005EBAD1 /* House.swift */; };
+		2CE9624C2544EA7E005EBAD1 /* HalfBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9624B2544EA7E005EBAD1 /* HalfBird.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,12 @@
 		2CCA9594254381FD00B4CF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CCA95C82544D0FF00B4CF90 /* PuzzleSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSelect.swift; sourceTree = "<group>"; };
 		2CCA95CA2544D12B00B4CF90 /* PuzzleSelect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PuzzleSelect.sks; sourceTree = "<group>"; };
+		2CCA95CC2544D9BB00B4CF90 /* House.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = House.sks; sourceTree = "<group>"; };
+		2CE962432544DE13005EBAD1 /* HalfBird.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HalfBird.sks; sourceTree = "<group>"; };
+		2CE962452544DF88005EBAD1 /* Car.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Car.sks; sourceTree = "<group>"; };
+		2CE962472544E254005EBAD1 /* Remember.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Remember.sks; sourceTree = "<group>"; };
+		2CE962492544E409005EBAD1 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		2CE9624B2544EA7E005EBAD1 /* HalfBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfBird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +129,15 @@
 				2CCA958A25430F7B00B4CF90 /* PreviewScene.sks */,
 				2CCA958D25430F7B00B4CF90 /* PreviewScene.swift */,
 				2CCA958C25430F7B00B4CF90 /* Puzzle.sks */,
+				2CCA958B25430F7B00B4CF90 /* Puzzle.swift */,
 				2CCA95CA2544D12B00B4CF90 /* PuzzleSelect.sks */,
 				2CCA95C82544D0FF00B4CF90 /* PuzzleSelect.swift */,
-				2CCA958B25430F7B00B4CF90 /* Puzzle.swift */,
+				2CE962492544E409005EBAD1 /* House.swift */,
+				2CCA95CC2544D9BB00B4CF90 /* House.sks */,
+				2CE962452544DF88005EBAD1 /* Car.sks */,
+				2CE962472544E254005EBAD1 /* Remember.sks */,
+				2CE962432544DE13005EBAD1 /* HalfBird.sks */,
+				2CE9624B2544EA7E005EBAD1 /* HalfBird.swift */,
 				2CCA958625430F6200B4CF90 /* FlashCards.sks */,
 				2CCA9594254381FD00B4CF90 /* Assets.xcassets */,
 				2CCA958725430F6300B4CF90 /* FlashCards.swift */,
@@ -230,11 +248,15 @@
 				2CCA9595254381FE00B4CF90 /* Assets.xcassets in Resources */,
 				2CCA9593254316A800B4CF90 /* GameScene.sks in Resources */,
 				2CCA958E25430F7C00B4CF90 /* PreviewScene.sks in Resources */,
+				2CE962442544DE13005EBAD1 /* HalfBird.sks in Resources */,
 				2CCA956725430DE400B4CF90 /* LaunchScreen.storyboard in Resources */,
 				2CCA957F25430EDB00B4CF90 /* success.sks in Resources */,
 				2CCA958825430F6300B4CF90 /* FlashCards.sks in Resources */,
 				2CCA957E25430EDB00B4CF90 /* winner.sks in Resources */,
+				2CE962482544E254005EBAD1 /* Remember.sks in Resources */,
 				2CCA95CB2544D12B00B4CF90 /* PuzzleSelect.sks in Resources */,
+				2CCA95CD2544D9BB00B4CF90 /* House.sks in Resources */,
+				2CE962462544DF88005EBAD1 /* Car.sks in Resources */,
 				2CCA958125430EE500B4CF90 /* Sound in Resources */,
 				2CCA955B25430DE200B4CF90 /* Actions.sks in Resources */,
 			);
@@ -256,12 +278,14 @@
 			files = (
 				2CCA958925430F6300B4CF90 /* FlashCards.swift in Sources */,
 				2CCA958F25430F7C00B4CF90 /* Puzzle.swift in Sources */,
+				2CE9624C2544EA7E005EBAD1 /* HalfBird.swift in Sources */,
 				2CCA958525430F3D00B4CF90 /* Cards.swift in Sources */,
 				2CCA955D25430DE200B4CF90 /* GameScene.swift in Sources */,
 				2CCA955F25430DE200B4CF90 /* GameViewController.swift in Sources */,
 				2CCA959125430F7C00B4CF90 /* PreviewScene.swift in Sources */,
 				2CCA95C92544D0FF00B4CF90 /* PuzzleSelect.swift in Sources */,
 				2CCA955725430DE200B4CF90 /* AppDelegate.swift in Sources */,
+				2CE9624A2544E409005EBAD1 /* House.swift in Sources */,
 				2CCA958325430F2700B4CF90 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
